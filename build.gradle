@@ -46,6 +46,7 @@ spigot {
         apiVersion 1.19
         depend ["HamsterAPI"]
         description "Disable Player Chat Reporting and make user messages untrackable"
+        prefix "${plugin_friendly_name}"
     }
 }
 
