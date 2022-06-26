@@ -40,8 +40,8 @@ dependencies {
 spigot {
     desc {
         name "${plugin_name}" //Default: the project name
-        version project.version //Default: the project version
-        authors project.authors
+        version ${plugin_version} //Default: the project version
+        authors ${plugin_authors}
         main 'eu.miogmiog.nochatreports.Main'
         apiVersion 1.19
         depend ["HamsterAPI"]
