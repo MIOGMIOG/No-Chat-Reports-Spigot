@@ -26,5 +26,5 @@ repositories {
 dependencies {
   // Pick only one of these and read the comment in the repositories block.
   compileOnly "org.spigotmc:spigot-api:${spigot_api}" // The Spigot API with no shadowing. Requires the OSS repo.
-  compileOnly "org.spigotmc:spigot:${spigot}" // The full Spigot server with no shadowing. Requires mavenLocal.
+  compileOnly "org.spigotmc:spigot:${spigot_api}" // The full Spigot server with no shadowing. Requires mavenLocal.
 }
