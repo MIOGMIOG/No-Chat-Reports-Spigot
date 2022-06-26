@@ -36,3 +36,17 @@ dependencies {
   compileOnly "org.spigotmc:spigot-api:${spigot_api}" // The Spigot API with no shadowing. Requires the OSS repo.
   compileOnly "org.spigotmc:spigot:${spigot}" // The full Spigot server with no shadowing. Requires mavenLocal.
 }
+
+spigot {
+    desc {
+        name "${plugin_name}" //Default: the project name
+        version project.version //Default: the project version
+        authors project.authors
+        main 'eu.miogmiog.nochatreports.Main'
+        apiVersion 1.19
+        depend ["HamsterAPI"]
+        description "Disable Player Chat Reporting and make user messages untrackable"
+    }
+}
+
+processResources.finalizedBy(spigotPlugin)
