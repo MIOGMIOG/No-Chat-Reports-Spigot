@@ -8,7 +8,6 @@ import static fr.il_totore.manadrop.MinecraftRepositoryHelper.*
 
 plugins {
     id 'java'
-    id 'fr.il_totore.manadrop' version "${manadrop_version}"
 }
 
 repositories {
