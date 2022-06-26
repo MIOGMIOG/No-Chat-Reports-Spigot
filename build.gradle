@@ -27,7 +27,7 @@ spigot {
         version ${plugin_version} //Default: the project version
         authors ${plugin_authors}
         main 'eu.miogmiog.nochatreports.Main'
-        apiVersion 1.19
+        apiVersion ${spigot_api}
         depend ["HamsterAPI"]
         description "Disable Player Chat Reporting and make user messages untrackable"
         prefix "${plugin_friendly_name}"
