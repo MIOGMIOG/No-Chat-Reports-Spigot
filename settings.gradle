@@ -1,7 +1,1 @@
-pluginManagement {
-  plugins {
-        id 'fr.il_totore.manadrop' version "${manadrop_version}"
-    }
-}
-
 rootProject.name = "${plugin_name}"
